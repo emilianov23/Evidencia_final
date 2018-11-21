@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apellido2"
+        />
+    <TextView
+        android:id="@+id/Curp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATOS"/>
+    <TextView
+        android:id="@+id/apellido1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/Curp"
+        />
+    <TextView
+        android:id="@+id/apellido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/apellido1"
+        />
+
+    <TextView
+        android:id="@+id/Sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/nombre"
+        />
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/sex"
+        />
+    <TextView
+        android:id="@+id/entidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fecha"
+        />
+
+
+    <TextView
+        android:id="@+id/Cur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entidad"
+        android:text=""/>
+
+</LinearLayout>
